@@ -1,0 +1,19 @@
+App(
+    appid="blackjack_app",
+    name="Blackjack",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="blackjack_app",
+    cdefines=["BLACKJACK"],
+    fap_category="Games",
+    fap_author="@RocketGod-git",
+    fap_version="0.1",
+    fap_description="Blackjack!",
+    fap_icon="icons/blackjack_icon.png",
+    fap_libs=["assets"],
+    fap_weburl="https://github.com/RocketGod-Git/Flipper-Zero-Blackjack",
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    order=10,
+)
