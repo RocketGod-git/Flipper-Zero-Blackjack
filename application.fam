@@ -2,7 +2,7 @@ App(
     appid="blackjack_app",
     name="Blackjack",
     apptype=FlipperAppType.EXTERNAL,
-    entry_point="blackjack_app",
+    entry_point="blackjack",
     cdefines=["BLACKJACK"],
     fap_category="Games",
     fap_author="@RocketGod-git",
