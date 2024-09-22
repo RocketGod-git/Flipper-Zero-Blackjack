@@ -139,7 +139,7 @@ void render_callback(Canvas* canvas, void* ctx) {
     }
 }
 
-int32_t blackjack_app(void* p) {
+int32_t blackjack(void* p) {
     UNUSED(p);
     BlackjackApp app;
     app.state = StateMenu;
